@@ -7,7 +7,6 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
@@ -23,7 +22,6 @@ export default function Home() {
       </p>
 
       <Link href="/ninjas">See Ninja Listing</Link>
-      <Footer />
     </>
   );
 }
